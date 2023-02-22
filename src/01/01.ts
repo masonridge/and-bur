@@ -1,3 +1,4 @@
+export const func01 = () => {};
 function test(date: Date) {}
 let val: any = 1;
 
@@ -45,8 +46,5 @@ function login(u: User) {
     default:
       const __unreachable: never = u;
       throw 'wrong user type';
-
-    default:
-      break;
   }
 }
