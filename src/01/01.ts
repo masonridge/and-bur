@@ -1,15 +1,19 @@
 export const func01 = () => {};
 function test(date: Date) {}
+// 1.  when any
 let val: any = 1;
 
+// can do all operations
 val++;
 val.toUpperCase();
 val.map(val);
 val.foobar = 2;
 test(val);
 
+// 2. when unknown
 let uVal: unknown = 1;
 
+// narrow down to the type
 if (typeof uVal === 'number') {
   uVal++;
 }
