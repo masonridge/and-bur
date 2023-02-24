@@ -99,6 +99,5 @@ function login2(u: User2) {
     default:
       const notPossible: never = u;
       throw new Error('Unexpected user type');
-      break;
   }
 }
